@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import logo from "../../assets/img/logo.svg";
+import navIcon1 from "../../assets/img/nav-icon1.svg";
+import navIcon2 from "../../assets/img/nav-icon2.svg";
+import navIcon3 from "../../assets/img/nav-icon3.svg";
+import "./NavBar.css";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
