@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../../assets/img/header-img.svg";
+import "./Banner.css";
 
 export const Banner = () => {
   // state for typed text animation //
@@ -26,7 +27,7 @@ export const Banner = () => {
     let i = loopNum % toRotate.length; // i = index from the array because the loop number '%' is constantly increasing and to rotate length
     let fullText = toRotate[i];
     let updatedText = isDeleting //text to be updated or set to.
-      ? fullText.substring(0, text.length - 1) //if current state if being deleting then take the full text and get its substring one letter less.
+      ? fullText.substring(0, text.length - 1) //if current state if being deleted then take the full text and get its substring one letter less.
       : fullText.substring(0, text.length + 1); //if not deleting then add one letter to the current text and come closer to the full text
 
     setText(updatedText);
@@ -49,7 +50,7 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
+            <span className="tagline">Jason Nguyen Portfolio</span>
             <h1>
               {"Hi I'am Jason "}
               <span className="wrap">{text}</span>
