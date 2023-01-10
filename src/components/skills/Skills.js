@@ -29,7 +29,7 @@ export const Skills = () => {
       <Container>
         <Row>
           <Col>
-            <div className="skill-box">
+            <div className="skill-bx">
               <h2>Skills</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -42,10 +42,10 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <h5>Web Development</h5>
+                  <h5>React JS</h5>
                 </div>
                 <div className="item">
-                  <h5>skill 2</h5>
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
                   <h5>skill 3</h5>
