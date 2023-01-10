@@ -30,12 +30,7 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text
-              </p>
+              <h2>Front End</h2>
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -45,21 +40,76 @@ export const Skills = () => {
                   <h5>React JS</h5>
                 </div>
                 <div className="item">
+                  <h5>Redux</h5>
+                </div>
+                <div className="item">
                   <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <h5>skill 3</h5>
+                  <h5>Bootstrap</h5>
                 </div>
                 <div className="item">
-                  <h5>skill 3</h5>
+                  <h5>Material Ui</h5>
                 </div>
                 <div className="item">
-                  <h5>skill 4</h5>
+                  <h5>HTML5</h5>
+                </div>
+                <div className="item">
+                  <h5>CSS3</h5>
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
+        {/* 
+        <Row>
+          <Col>
+            <div className="skill-bx">
+              <h2>Back End</h2>
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="skill-slider"
+              >
+                <div className="item">
+                  <h5>MongoDb</h5>
+                </div>
+                <div className="item">
+                  <h5>Express</h5>
+                </div>
+                <div className="item">
+                  <h5>Node</h5>
+                </div>
+                <div className="item">
+                  <h5>MYSQL</h5>
+                </div>
+              </Carousel>
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <div className="skill-bx">
+              <h2>Tools</h2>
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="skill-slider"
+              >
+                <div className="item">
+                  <h5>Git</h5>
+                </div>
+                <div className="item">
+                  <h5>Figma</h5>
+                </div>
+                <div className="item">
+                  <h5>Vs Code</h5>
+                </div>
+              </Carousel>
+            </div>
+          </Col>
+        </Row> */}
       </Container>
       <img
         className="background-image-left"

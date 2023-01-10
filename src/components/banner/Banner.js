@@ -52,7 +52,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Jason Nguyen Portfolio</span>
             <h1>
-              {"Hi I'am Jason "}
+              {"Hi! I'm Jason "}
               <span className="wrap">{text}</span>
             </h1>
             <p>
